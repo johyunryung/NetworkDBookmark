@@ -7,5 +7,5 @@
   - python manage.py runsever 
   
  - bookapp 앱 시작
-  - python manage.py startapp bookmark
-  - 'bookmark', in INSTALLED_APPS
+    - python manage.py startapp bookmark
+    - 'bookmark', in INSTALLED_APPS
