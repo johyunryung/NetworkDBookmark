@@ -15,3 +15,5 @@
  - boolmark/modles Bookmark
     - python manage.py makemigrations bookmark
     - python manage.py migrate 
+    
+ - bookmark/admin Bookmark
