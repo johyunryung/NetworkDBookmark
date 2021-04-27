@@ -1,4 +1,4 @@
-# DBookmark
+# DBookmark 📚
 
 - modles -> admin -> views -> templates -> urls
 
@@ -28,3 +28,7 @@
     - bookmark/views BookmarkListView
     - bookmark/templates/bookmark bookmark_list.html
     - urls; bookmark/urls bookmark:list
+    
+
+ - Add BookMark
+    - bookmark/views BookmarkCreateView
