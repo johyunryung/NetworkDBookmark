@@ -32,3 +32,5 @@
 
  - Add BookMark
     - bookmark/views BookmarkCreateView
+    - bookmark/templates/bookmark bookmark_create.html, bookmark_list.html
+
