@@ -1,5 +1,8 @@
 # DBookmark
 
+- modles -> admin -> views -> templates -> urls
+
+
 - 프로젝트 시작
   - django-admin startproject config .
   - python manage.py migrate
@@ -19,3 +22,8 @@
     
 
  - bookmark/admin Bookmark
+
+
+ - List BookMark
+    - bookmark/views BookmarkListView
+
