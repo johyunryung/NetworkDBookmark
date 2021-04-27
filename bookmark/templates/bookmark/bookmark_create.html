@@ -5,9 +5,10 @@
     <title>Add Bookmark</title>
 </head>
 <body>
-<form action="" method="post"></form>
+<form action="" method="post">
     {% csrf_token %}
     {{ form.as_p }}
     <button type="submit">Add</button>
+</form>
 </body>
 </html>
