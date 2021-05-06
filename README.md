@@ -47,3 +47,8 @@
     - bookmark/templates/bookmark bookmark_update.html, bookmark_list.html
     - bookmark/url bookmark:update
     - bookmark/models get_absolute_url() in Bookmark
+   
+
+ - Delete Bookmark
+   - bookmark/view BookmarkDeleteView
+   
