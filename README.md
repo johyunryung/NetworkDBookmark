@@ -42,3 +42,4 @@
 
  - Update BookMark
     - bookmark/views BookmarkUpdateView
+    - bookmark/templates/bookmark bookmark_update.html, bookmark_list.html
