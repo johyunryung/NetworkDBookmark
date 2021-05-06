@@ -1,14 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Confirm Delete Bookmark</title>
-</head>
-<body>
-<form action="" method="post"></form>
+{% extends 'base.html' %}
+
+{% block title %}Confirm Delete Bookmark{% endblock %}
+
+{% block content %}
+    <form action="" method="post"></form>
     {% csrf_token %}
     Do you want to delete Bookmark "{{ bookmark }}"?
     <button type="submit">Delete</button>
     <button type="button" onclick="history.back();">Cancle</button>
-</body>
-</html>
+{% endblock %}
