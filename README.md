@@ -36,4 +36,9 @@
     - bookmark/urls bookmark:add
     
  - Detail BookMark
-    -bookmark/views BookmarkDetailView
+    - bookmark/views BookmarkDetailView
+    - bookmark/templates/bookmark bookmark_detail.html, bookmark_list.html
+    - bookmark/urls bookmark:detail
+
+ - Update BookMark
+    - bookmark/views BookmarkUpdateView
